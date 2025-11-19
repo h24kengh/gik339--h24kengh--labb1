@@ -121,7 +121,7 @@ console.log(name);
     måsvingarna {} och "return" i funktionen likvärdig funktion
     med mindre kod.
 
-    Jag valde funktionsuttryck då det helt enkelt var den varianten
+    Jag valde funktionsdeklaration då det helt enkelt var den varianten
     jag kände mig tryggast med att använda utifrån tidigare erfarenheter.
 
     2. Eftersom funktionen greet() är en funktionsdeklaration så kan den
