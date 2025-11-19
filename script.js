@@ -1,24 +1,24 @@
-console.log(längd)
+console.log(längd);
 // console.log(ålder)
 // console.log(födelseår)
 {
-    let ålder = 18
-    var längd = 179
-    const födelseår = "1993"
+    let ålder = 18;
+    var längd = 179;
+    const födelseår = "1993";
 
-    console.log(födelseår)
-    console.log(längd)
-    console.log(ålder)
+    console.log(födelseår);
+    console.log(längd);
+    console.log(ålder);
 }
 // console.log(längd)
 // console.log(ålder)
 // console.log(födelseår)
 
-console.log('5' == 5)
-console.log('9' === 9)
-console.log(NaN === NaN)
-console.log(null == undefined)
-console.log(null === undefined)
+console.log('5' == 5);
+console.log('9' === 9);
+console.log(NaN === NaN);
+console.log(null == undefined);
+console.log(null === undefined);
 
 
 /* Reflektion Uppgift 2
@@ -39,13 +39,13 @@ console.log(null === undefined)
      användas inom deras "scope" vilket förklarar varför vi fått
      lära oss att inte använda var överhuvudtaget.  */
 
-console.log('5' == 5)
-console.log('9' === 9)
-console.log(NaN === NaN)
-console.log(null == undefined)
-console.log(null === undefined)
+console.log('5' == 5);
+console.log('9' === 9);
+console.log(NaN === NaN);
+console.log(null == undefined);
+console.log(null === undefined);
 
-console.log(undefined ? true : false)
+console.log(undefined ? true : false);
 
 // Utför samma operation med en if-sats
 
@@ -54,7 +54,7 @@ console.log(undefined ? true : false)
     }   
     else {
         console.log("falsy")
-    }
+    };
 
 /* Reflektion Uppgift 3
 
@@ -90,31 +90,31 @@ console.log(undefined ? true : false)
 
     null - representerar den avsiktliga frånvaron av något objektvärde.
     Till skillnad från undefined som är en global variabel, så är null
-    inte en identifierare utan ett syntaxnyckelord.
+    inte en identifierare utan ett syntaxnyckelord. */
 
-    */
-console.log(greet("Johan"))
+    console.log(greet("Johan"));
 // Skapar funktionen greet med parametern name.
 function greet(name)    {
-    return console.log("Hej "+name)
-}
-
+    return ("Hej "+name)
+};
 // Skriver ut resultatet genom funktionsanropet direkt i console.log().
-console.log(greet("Kennedy"))
+console.log(greet("Kennedy"));
 
 // Skapar variabeln name och skriver ut den med console.log().
 let name ="Ulrik";
-console.log(name)
+console.log(name);
 
 /* Reflektion Uppgift 4
 
     1. Funktionsdeklaration - En funktionsdeklaration består av två delar: 
     * Deklarationen: funktionens namn, returtyp och eventuella parametrar.
     * Definitionen: funktionens innehåll (koden som exekveras).
+    En funktionsdeklaration kan anropas innan den deklarerats i koden.
     
     Funktionsuttryck - Den stora skillnaden mellan ett funktionsuttryck och 
     en funktionsdeklaration är funktionsnamnet som kan utelämnas i 
     funktionsuttryck för att skapa anonyma funktioner.
+    Ett funktionsuttryck kan inte anropas innan det deklarerats i koden.
 
     Arrowfunktion - Är ett kompakt alternativ till funktionsuttryck. 
     Genom att ersätta ordet "function" med "=>", samt ta bort
@@ -124,9 +124,9 @@ console.log(name)
     Jag valde funktionsuttryck då det helt enkelt var den varianten
     jag kände mig tryggast med att använda utifrån tidigare erfarenheter.
 
-    2. Funktionen greet kan anropas innan den skapats och returnerar då undefined 
-    på raden den skrivs ut på samt korrekt innehåll på raden där själva 
-    funktionen deklareras.
+    2. Eftersom funktionen greet() är en funktionsdeklaration så kan den
+    anropas innan den deklarerats i koden. Därför har placeringen på anropet
+    ingen betydelse.
 
     3. Om jag ändrar parametern inuti funktionen greet() utan att ändra
     vid funktionsdeklarationen eller vise värsa så får jag ett felmeddelande
@@ -138,7 +138,7 @@ console.log(name)
     som hänvisar till att innehållet inte är definierat.                                        **
 
     4.  
-    
+
     Parameter - Används i funktionsdefinitionen för att referera till
     argumenten, fungerar endast inom funktionen.
 
@@ -148,4 +148,3 @@ console.log(name)
     och fungerar så snart den deklarerats.
 
     */
-   
