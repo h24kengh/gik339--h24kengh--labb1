@@ -80,7 +80,7 @@ console.log(undefined ? true : false);
     2. Uttrycket jämförs för att avgöra om det är sant eller falskt och
     beroende på resultatet så skrivs det ut i konsolen.
 
-    3. NaN - Not-A-Number returneras vid t.ex matematiska operationer som inte              **
+    3. NaN - Not-A-Number returneras vid t.ex matematiska operationer som inte              
     ger ett numeriskt värde. 
 
     undefined - Om en variabel inte har tilldelats ett värde är av typen
@@ -109,7 +109,8 @@ console.log(name);
     1. Funktionsdeklaration - En funktionsdeklaration består av två delar: 
     * Deklarationen: funktionens namn, returtyp och eventuella parametrar.
     * Definitionen: funktionens innehåll (koden som exekveras).
-    En funktionsdeklaration kan anropas innan den deklarerats i koden.
+    En funktionsdeklaration kan anropas i koden innan den deklarerats,
+    förutsatt att den har gjort det.
     
     Funktionsuttryck - Den stora skillnaden mellan ett funktionsuttryck och 
     en funktionsdeklaration är funktionsnamnet som kan utelämnas i 
@@ -135,16 +136,12 @@ console.log(name);
     så får jag ingen utskrift men name blir överstruket i script.js-filen
     och menar på att variabeln är föråldrad "deprecated". 
     Ändrar jag innehållet i console.log() istället så får jag ett felmeddelande
-    som hänvisar till att innehållet inte är definierat.                                        **
+    som hänvisar till att innehållet inte är definierat.                                        
 
-    4.  
-
-    Parameter - Används i funktionsdefinitionen för att referera till
+    4.  Parameter - Används i funktionsdefinitionen för att referera till
     argumenten, fungerar endast inom funktionen.
 
     Argument - Värden som skickas som indata till en funktion.
 
     Variabel - En namngiven referens till ett värde, något som kan variera
-    och fungerar så snart den deklarerats.
-
-    */
+    och fungerar så snart den deklarerats. */
