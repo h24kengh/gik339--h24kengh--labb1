@@ -45,10 +45,10 @@ console.log(NaN === NaN);
 console.log(null == undefined);
 console.log(null === undefined);
 
+// Använder en ternary operator (?:)
 console.log(undefined ? true : false);
 
 // Utför samma operation med en if-sats
-
     if (undefined === true) {
         console.log("truthy")
     }   
@@ -91,7 +91,7 @@ console.log(undefined ? true : false);
     null - representerar den avsiktliga frånvaron av något objektvärde.
     Till skillnad från undefined som är en global variabel, så är null
     inte en identifierare utan ett syntaxnyckelord. */
-
+// Skriver ut funktionsanropet innan funktionen deklarerats vilket fungerar.
     console.log(greet("Johan"));
 // Skapar funktionen greet med parametern name.
 function greet(name)    {
